@@ -9,5 +9,7 @@ repos:
     rev: v0.3.2
     hooks:
       - id: ruff
+        types_or: [python, pyi, jupyter]
         args: [ --fix ]
       - id: ruff-format
+        types_or: [python, pyi, jupyter]
